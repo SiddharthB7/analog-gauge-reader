@@ -1,0 +1,18 @@
+# Core libs (GPU/CPU agnostic)
+numpy>=1.24
+opencv-python>=4.8
+matplotlib>=3.7
+pandas>=2.1
+openpyxl>=3.1
+pillow>=10.0
+pyyaml>=6.0
+ultralytics>=8.2.0
+
+# NOTE:
+# Install ONE OCR backend separately:
+#   pip install openocr-python     # (Topdu)
+# or
+#   pip install OpenOCR            # (MarkHoo)
+#
+# Install PyTorch/torchvision separately for CPU/GPU:
+#   https://pytorch.org/get-started/locally/
