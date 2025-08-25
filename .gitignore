@@ -205,3 +205,36 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project-specific: analog-gauge-reader ---
+
+# Ultralytics training outputs
+runs/
+outputs/
+logs/
+wandb/
+tensorboard/
+results.png
+
+# Model weights / large artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.weights
+*.bin
+*.safetensors
+*.npz
+*.npy
+
+# Datasets & large image folders (keep config YAMLs)
+crops/
+datasets/
+data/
+images/
+# Keep dataset config files even if under data/
+!*.yaml
+
+# Temporary files created by the app
+tmp_openocr_input.jpg
