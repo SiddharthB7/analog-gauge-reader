@@ -9,6 +9,9 @@ Hybrid analog gauge reader: **YOLO detect + YOLO pose** → keypoints → angle 
 > **Note:** OCR for digits/units on mechanical dials is inherently noisy. The angle/needle math is deterministic; OCR is used only to guess min/max/unit and can be corrected interactively.
 
 ---
+## Contributors
+- [@SiddharthB7](https://github.com/SiddharthB7) – detection/pose pipeline, 
+- [@BevanGeorge](https://github.com/BevanGeorge) – OCR, datasets, tooling
 
 ## What this does
 
