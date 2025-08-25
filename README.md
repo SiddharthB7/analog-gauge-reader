@@ -19,10 +19,20 @@ Hybrid analog gauge reader: **YOLO detect + YOLO pose** → keypoints → angle 
 - **Outputs final reading**: `reading = min + fraction * (max - min)` and visualizes everything.
 
 ---
-
-## Repo structure
-
 ```
+
+
+
+
+
+![WhatsApp Image 2025-08-16 at 17 30 14_46eecf3e](https://github.com/user-attachments/assets/234504a5-688a-407f-8089-604f4bb90630)
+![WhatsApp Image 2025-08-16 at 17 30 25_3f085bc7](https://github.com/user-attachments/assets/465d412f-18a8-4b90-94a3-4e8aeab8aa12)
+![WhatsApp Image 2025-08-16 at 17 30 37_7ddf14a1](https://github.com/user-attachments/assets/c27fa6f8-7fbd-4550-bd25-e206fa442e6c)
+![WhatsApp Image 2025-08-16 at 17 30 48_8a56cde4](https://github.com/user-attachments/assets/a7690e8e-2509-4119-8994-2d6192092818)
+![WhatsApp Image 2025-08-16 at 17 31 00_10394ef9](https://github.com/user-attachments/assets/73972035-7d20-4c60-8c82-7369dc622e46)
+![WhatsApp Image 2025-08-16 at 17 31 10_4db281a2](https://github.com/user-attachments/assets/35987380-98c8-4b0e-90d4-8d4690696cd2)
+```
+## Repo structure
 
 .
 ├─ gauge\_reader.py          # main pipeline & CLI (single image or folder)
