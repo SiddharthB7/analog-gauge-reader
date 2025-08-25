@@ -1,0 +1,12 @@
+path: ./crops
+
+train: train/images
+val:   valid/images
+test:  test/images
+
+nc: 1
+names: ['gauge']
+
+# ----- pose settings -----
+kpt_shape: [4, 3]      # 4 keypoints, 3 dims each (x,y,visibility)
+flip_idx: []           # No flip mapping needed

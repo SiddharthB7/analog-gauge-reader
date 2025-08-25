@@ -1,0 +1,7 @@
+path: .
+train: train/images
+val:   valid/images
+test:  test/images  # optional
+
+nc: 1
+names: ['gauge']
